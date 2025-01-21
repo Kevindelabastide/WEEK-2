@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+<body>
+
+<h2>Pizza Order</h2>
+
+<form action="/action_page.php">
+  <label for="fname">Name:</label><br>
+  <input type="text" id="fname" name="fname" value="Example: John Pork"><br>
+  <label for="lname">Phone Number:</label><br>
+  <input type="text" id="lname" name="lname" value="Example: 888-888-8888"><br><br>
+  
+
+  <input type="radio" id="small" name="size" value="Small">
+  <label for="Small">Small</label><br>
+  <input type="radio" id="medium" name="size" value="Medium">
+  <label for="Medium">Medium</label><br>
+  <input type="radio" id="large" name="size" value="Large">
+  <label for="Large">Large </label> <br> <br>
+
+<form action="/action_page.php">
+    <label for="cars">Toppings:</label>
+    <select name="cars" id="cars">
+      <option value="All Dressed">All Dressed</option>
+      <option value="Mushrooms">Mushrooms</option>
+      <option value="Pepperoni">Pepperoni</option>
+      <option value="Olives">Olives</option>
+    </select>
+    <br><br>
+
+    <label for="note">Extra Notes:</label><br>
+  <textarea id="note" name="note" value="Type Notes Here"></textarea><br>
+
+<input type="submit" value="Submit">
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+</body>
+</html>
